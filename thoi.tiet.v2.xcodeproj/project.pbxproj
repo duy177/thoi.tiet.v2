@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		818701EA1DAF482C002A87C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818701E91DAF482C002A87C2 /* AppDelegate.swift */; };
+		818701EC1DAF482C002A87C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818701EB1DAF482C002A87C2 /* ViewController.swift */; };
+		818701EF1DAF482C002A87C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818701ED1DAF482C002A87C2 /* Main.storyboard */; };
+		818701F11DAF482C002A87C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818701F01DAF482C002A87C2 /* Assets.xcassets */; };
+		818701F41DAF482C002A87C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818701F21DAF482C002A87C2 /* LaunchScreen.storyboard */; };
+		818702081DAF4955002A87C2 /* Blood.png in Resources */ = {isa = PBXBuildFile; fileRef = 818701FD1DAF4955002A87C2 /* Blood.png */; };
+		818702091DAF4955002A87C2 /* Moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 818701FE1DAF4955002A87C2 /* Moon.png */; };
+		8187020A1DAF4955002A87C2 /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 818701FF1DAF4955002A87C2 /* Sun.png */; };
+		8187020B1DAF4955002A87C2 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 818702011DAF4955002A87C2 /* location.png */; };
+		8187020C1DAF4955002A87C2 /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 818702021DAF4955002A87C2 /* location@2x.png */; };
+		8187020D1DAF4955002A87C2 /* location@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 818702031DAF4955002A87C2 /* location@3x.png */; };
+		8187020E1DAF4955002A87C2 /* Refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 818702041DAF4955002A87C2 /* Refresh.png */; };
+		8187020F1DAF4955002A87C2 /* Refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 818702051DAF4955002A87C2 /* Refresh@2x.png */; };
+		818702101DAF4955002A87C2 /* Refresh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 818702061DAF4955002A87C2 /* Refresh@3x.png */; };
+		818702111DAF4955002A87C2 /* Weather Design Techmaster.sketch in Resources */ = {isa = PBXBuildFile; fileRef = 818702071DAF4955002A87C2 /* Weather Design Techmaster.sketch */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		818701E61DAF482C002A87C2 /* thoi.tiet.v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thoi.tiet.v2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		818701E91DAF482C002A87C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		818701EB1DAF482C002A87C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		818701EE1DAF482C002A87C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		818701F01DAF482C002A87C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		818701F31DAF482C002A87C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		818701F51DAF482C002A87C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		818701FD1DAF4955002A87C2 /* Blood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blood.png; sourceTree = "<group>"; };
+		818701FE1DAF4955002A87C2 /* Moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moon.png; sourceTree = "<group>"; };
+		818701FF1DAF4955002A87C2 /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sun.png; sourceTree = "<group>"; };
+		818702011DAF4955002A87C2 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		818702021DAF4955002A87C2 /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@2x.png"; sourceTree = "<group>"; };
+		818702031DAF4955002A87C2 /* location@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@3x.png"; sourceTree = "<group>"; };
+		818702041DAF4955002A87C2 /* Refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Refresh.png; sourceTree = "<group>"; };
+		818702051DAF4955002A87C2 /* Refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Refresh@2x.png"; sourceTree = "<group>"; };
+		818702061DAF4955002A87C2 /* Refresh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Refresh@3x.png"; sourceTree = "<group>"; };
+		818702071DAF4955002A87C2 /* Weather Design Techmaster.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Weather Design Techmaster.sketch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		818701E31DAF482C002A87C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		818701DD1DAF482C002A87C2 = {
+			isa = PBXGroup;
+			children = (
+				818701E81DAF482C002A87C2 /* thoi.tiet.v2 */,
+				818701E71DAF482C002A87C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		818701E71DAF482C002A87C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				818701E61DAF482C002A87C2 /* thoi.tiet.v2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		818701E81DAF482C002A87C2 /* thoi.tiet.v2 */ = {
+			isa = PBXGroup;
+			children = (
+				818701FB1DAF4955002A87C2 /* Images */,
+				818701E91DAF482C002A87C2 /* AppDelegate.swift */,
+				818701EB1DAF482C002A87C2 /* ViewController.swift */,
+				818701ED1DAF482C002A87C2 /* Main.storyboard */,
+				818701F01DAF482C002A87C2 /* Assets.xcassets */,
+				818701F21DAF482C002A87C2 /* LaunchScreen.storyboard */,
+				818701F51DAF482C002A87C2 /* Info.plist */,
+			);
+			path = thoi.tiet.v2;
+			sourceTree = "<group>";
+		};
+		818701FB1DAF4955002A87C2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				818701FC1DAF4955002A87C2 /* Background Images */,
+				818702001DAF4955002A87C2 /* Icon */,
+				818702071DAF4955002A87C2 /* Weather Design Techmaster.sketch */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		818701FC1DAF4955002A87C2 /* Background Images */ = {
+			isa = PBXGroup;
+			children = (
+				818701FD1DAF4955002A87C2 /* Blood.png */,
+				818701FE1DAF4955002A87C2 /* Moon.png */,
+				818701FF1DAF4955002A87C2 /* Sun.png */,
+			);
+			path = "Background Images";
+			sourceTree = "<group>";
+		};
+		818702001DAF4955002A87C2 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				818702011DAF4955002A87C2 /* location.png */,
+				818702021DAF4955002A87C2 /* location@2x.png */,
+				818702031DAF4955002A87C2 /* location@3x.png */,
+				818702041DAF4955002A87C2 /* Refresh.png */,
+				818702051DAF4955002A87C2 /* Refresh@2x.png */,
+				818702061DAF4955002A87C2 /* Refresh@3x.png */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		818701E51DAF482C002A87C2 /* thoi.tiet.v2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 818701F81DAF482C002A87C2 /* Build configuration list for PBXNativeTarget "thoi.tiet.v2" */;
+			buildPhases = (
+				818701E21DAF482C002A87C2 /* Sources */,
+				818701E31DAF482C002A87C2 /* Frameworks */,
+				818701E41DAF482C002A87C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = thoi.tiet.v2;
+			productName = thoi.tiet.v2;
+			productReference = 818701E61DAF482C002A87C2 /* thoi.tiet.v2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		818701DE1DAF482C002A87C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ios;
+				TargetAttributes = {
+					818701E51DAF482C002A87C2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 818701E11DAF482C002A87C2 /* Build configuration list for PBXProject "thoi.tiet.v2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 818701DD1DAF482C002A87C2;
+			productRefGroup = 818701E71DAF482C002A87C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				818701E51DAF482C002A87C2 /* thoi.tiet.v2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		818701E41DAF482C002A87C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8187020A1DAF4955002A87C2 /* Sun.png in Resources */,
+				818702081DAF4955002A87C2 /* Blood.png in Resources */,
+				8187020F1DAF4955002A87C2 /* Refresh@2x.png in Resources */,
+				818702111DAF4955002A87C2 /* Weather Design Techmaster.sketch in Resources */,
+				818702101DAF4955002A87C2 /* Refresh@3x.png in Resources */,
+				818701F41DAF482C002A87C2 /* LaunchScreen.storyboard in Resources */,
+				8187020D1DAF4955002A87C2 /* location@3x.png in Resources */,
+				818702091DAF4955002A87C2 /* Moon.png in Resources */,
+				8187020B1DAF4955002A87C2 /* location.png in Resources */,
+				8187020C1DAF4955002A87C2 /* location@2x.png in Resources */,
+				818701F11DAF482C002A87C2 /* Assets.xcassets in Resources */,
+				818701EF1DAF482C002A87C2 /* Main.storyboard in Resources */,
+				8187020E1DAF4955002A87C2 /* Refresh.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		818701E21DAF482C002A87C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818701EC1DAF482C002A87C2 /* ViewController.swift in Sources */,
+				818701EA1DAF482C002A87C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		818701ED1DAF482C002A87C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				818701EE1DAF482C002A87C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		818701F21DAF482C002A87C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				818701F31DAF482C002A87C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		818701F61DAF482C002A87C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		818701F71DAF482C002A87C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		818701F91DAF482C002A87C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = thoi.tiet.v2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.thoi-tiet-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		818701FA1DAF482C002A87C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = thoi.tiet.v2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.thoi-tiet-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		818701E11DAF482C002A87C2 /* Build configuration list for PBXProject "thoi.tiet.v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818701F61DAF482C002A87C2 /* Debug */,
+				818701F71DAF482C002A87C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		818701F81DAF482C002A87C2 /* Build configuration list for PBXNativeTarget "thoi.tiet.v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818701F91DAF482C002A87C2 /* Debug */,
+				818701FA1DAF482C002A87C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 818701DE1DAF482C002A87C2 /* Project object */;
+}
